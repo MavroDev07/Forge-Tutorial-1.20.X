@@ -1,8 +1,13 @@
 {
-  "item.tutorialmod.sapphire": "Sapphire",
-  "item.tutorialmod.raw_sapphire": "Raw Sapphire",
+  "item.tutorialmod.steel_ingot": "Steel Ingot",
 
-  "block.tutorialmod.sapphire_block": "Sapphire Block",
+  "block.tutorialmod.steel_block": "Steel Block",
+  "block.tutorialmod.copper_coil_block": "Copper Coil Block",
+  "block.tutorialmod.lv_machine_casing": "Low Voltage Machine Casing",
+  "block.tutorialmod.lv_machine_controler": "Low Voltage Machine Controler",
+  "block.tutorialmod.lv_machine_item_output": "Low Voltage Machine Item Output",
+  "block.tutorialmod.lv_machine_item_input": "Low Voltage Machine Item Input",
+  "block.tutorialmod.lv_machine_energy_input": "Low Voltage Machine Energy Input",
 
-  "creativeTab.tutorial_tab": "Sapphire Tutorial Tab"
+  "creativeTab.tutorial_tab": "Tutorial Tab"
 }

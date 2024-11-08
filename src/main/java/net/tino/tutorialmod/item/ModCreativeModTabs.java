@@ -16,12 +16,17 @@ public class ModCreativeModTabs
           DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEEL_INGOT.get()))
                     .title(Component.translatable("creativeTab.tutorial_tab"))
                     .displayItems((itemDisplayParameters, pOutput) -> {
-                        pOutput.accept(ModItems.SAPPHIRE.get());
-                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModItems.STEEL_INGOT.get());
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.COPPER_COIL_BLOCK.get());
+                        pOutput.accept(ModBlocks.LV_MACHINE_CASING.get());
+                        pOutput.accept(ModBlocks.LV_MACHINE_CONTROLER.get());
+                        pOutput.accept(ModBlocks.LV_MACHINE_ITEM_OUTPUT.get());
+                        pOutput.accept(ModBlocks.LV_MACHINE_ITEM_INPUT.get());
+                        pOutput.accept(ModBlocks.LV_MACHINE_ENERGY_INPUT.get());
                     })
                     .build());
 
